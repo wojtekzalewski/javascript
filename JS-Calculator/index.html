@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>JavaScript Calculator</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <input type="button" class="calculator-items" id="clear-button" value="c" onclick="clearItem()">
+        <input id="display" type="text">
+        <input type="button" class="calculator-items" value="1" onclick="getItem(1)">
+        <input type="button" class="calculator-items" value="2" onclick="getItem(2)">
+        <input type="button" class="calculator-items" value="3" onclick="getItem(3)">
+        <input type="button" class="calculator-items" value="4" onclick="getItem(4)">
+        <input type="button" class="calculator-items" value="5" onclick="getItem(5)">
+        <input type="button" class="calculator-items" value="6" onclick="getItem(6)">
+        <input type="button" class="calculator-items" value="7" onclick="getItem(7)">
+        <input type="button" class="calculator-items" value="8" onclick="getItem(8)">
+        <input type="button" class="calculator-items" value="9" onclick="getItem(9)">
+        <input type="button" class="calculator-items" value="0" onclick="getItem(0)">
+        <input type="button" class="calculator-items" value="." onclick="getItem('.')">
+        <input type="button" class="calculator-items" value="+" onclick="getItem('+')">
+        <input type="button" class="calculator-items" value="-" onclick="getItem('-')">
+        <input type="button" class="calculator-items" value="*" onclick="getItem('*')">
+        <input type="button" class="calculator-items" value="/" onclick="getItem('/')">
+        <input type="button" class="calculator-items" id="result-button" value="=" onclick="showResult()">
+    </div>
+    <footer>&copy; Wojciech Zalewski</footer>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

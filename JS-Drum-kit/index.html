@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>JavaScript Drum kit</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+
+<body>
+    <h1>Drum Kit JavaScript</h1>
+    <h2>use keys to play</h2>
+    <div class="keys">
+        <div data-key="65" class="key">
+            <kbd class="letter">A</kbd>
+            <span class="sound">crash</span>
+        </div>
+        <div data-key="83" class="key">
+            <kbd class="letter">S</kbd>
+            <span class="sound">hihat</span>
+        </div>
+        <div data-key="68" class="key">
+            <kbd class="letter">D</kbd>
+            <span class="sound">kick</span>
+        </div>
+        <div data-key="70" class="key">
+            <kbd class="letter">F</kbd>
+            <span class="sound">ride</span>
+        </div>
+        <div data-key="71" class="key">
+            <kbd class="letter">G</kbd>
+            <span class="sound">snare</span>
+        </div>
+        <div data-key="72" class="key">
+            <kbd class="letter">H</kbd>
+            <span class="sound">splash</span>
+        </div>
+        <div data-key="74" class="key">
+            <kbd class="letter">J</kbd>
+            <span class="sound">tom</span>
+        </div>
+    </div>
+    <audio data-key="65" src="sounds/crash.mp3"></audio>
+    <audio data-key="83" src="sounds/hihat.mp3"></audio>
+    <audio data-key="68" src="sounds/kick.mp3"></audio>
+    <audio data-key="70" src="sounds/ride.mp3"></audio>
+    <audio data-key="71" src="sounds/snare.mp3"></audio>
+    <audio data-key="72" src="sounds/splash.mp3"></audio>
+    <audio data-key="74" src="sounds/tom.mp3"></audio>
+    <footer>&copy; Wojciech Zalewski</footer>
+    <script src="main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,73 @@
+body {
+    font-family: 'Permanent Marker', cursive;
+    height: 85vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 0px;
+    background-color: whitesmoke;
+}
+
+canvas {
+    display: block;
+    border: 10px solid #343434;
+    border-radius: 25px;
+    background-color: #252a44;
+    transform: translateY(150px);
+    margin: 0px auto;
+}
+
+h1,
+h2 {
+    text-align: center;
+    font-size: 28px;
+    color: #e40427;
+}
+
+h1 {
+    transform: translateY(-475px);
+}
+
+#buttons {
+    width: 400px;
+    height: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.keyarrow {
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    display: inline-block;
+    border-radius: 5px;
+    border: 2px solid black;
+    font-size: 42px;
+}
+
+#up-arrow {
+    margin-left: 175px;
+}
+
+#left-arrow {
+    margin-left: 117px;
+    margin-top: 10px;
+}
+
+footer {
+    background-color: black;
+    height: 25px;
+    width: 99vw;
+    line-height: 25px;
+    color: rgba(255, 255, 255, 0.84);
+    position: absolute;
+    bottom: 0;
+    border: 0px;
+    text-align: right;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+    font-size: 8px;
+    bottom: 0px;
+    padding-right: 10px;
+}
